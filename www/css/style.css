@@ -21,7 +21,7 @@ h2 {
 		animation: textclip 1.5s linear infinite;
 		display: inline-block;
     margin-left: 100px;
-    margin-top: 60px;
+    margin-top: 70px;
 	}
 
 @keyframes textclip {
@@ -32,5 +32,5 @@ h2 {
 
 body {
   background-image: linear-gradient(to right, #FFE3F1,#BBA5B0, #54424B);
-  margin-top: 200px; 
+  margin-top: 220px; 
 }

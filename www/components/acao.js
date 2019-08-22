@@ -13,9 +13,12 @@ $(document).on("click", ".codigoBarra", function (){
          else if (result.text == 85369877444){
            $(location).attr("href", "asus.html");
          }
+         else {
+            navigator.notification.alert("Código de barra inválido!");
+         }
       },
       function (error) {
-          navigator.notification.alert("Código de barra inválido!" + error);
+          navigator.notification.alert("Erro na leitura!" + error);
       },
       {
           preferFrontCamera : false,
