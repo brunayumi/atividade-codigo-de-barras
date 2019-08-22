@@ -1,4 +1,4 @@
-$(document).on("click", "#codigoBarra", function (){
+$(document).on("click", ".codigoBarra", function (){
     cordova.plugins.barcodeScanner.scan(
       function (result) {
          if (result.text == 280720550){

@@ -6,44 +6,31 @@ h1 {
   font-size: 30px;
 }
 
-p {
-  text-align: center;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-  font-size: 20px;
-  border-left: 6px solid #47313C;
-  border-right: 6px solid #47313C;
-  border-radius: 10%;
-  background-color: white;
-}
+h2 {
+	  text-align: center;
+		font-size:30px;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-family: "Josefin Sans", sans-serif;
+		background: linear-gradient(to right, #FFE3F1 10%, #BBA5B0 50%, #54424B 60%);
+		background-size: 200% auto;
+		color: #fff;
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: textclip 1.5s linear infinite;
+		display: inline-block;
+    margin-left: 100px;
+    margin-top: 60px;
+	}
 
-.form-group {
-  text-align: center;
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
 }
 
 body {
   background-image: linear-gradient(to right, #FFE3F1,#BBA5B0, #54424B);
-}
-
-.btn{
-  text-align: center;
-  line-height: 90px;
-  margin: 10px;
-  border-radius: 50px;
-  transition: 1s;
-  box-shadow: 0 4px rgba(0,0,0,0.2);
-  font-family: fantasy;
-  width: 150px;
-  height: 100px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-}
-  .btn:active {
-	box-shadow: none;
-    }
-
-img {
-  width: 100px;
-  height: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  margin-top: 200px; 
 }
